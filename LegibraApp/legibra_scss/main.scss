@@ -1,0 +1,18 @@
+﻿/*
+		LegibraApp: Bootstrap, Jquery, Javascript, HTML5, CSS3, Sass 
+		Author : Sammy Mwangangi, web software developer
+		Date: 31st to 2nd 2017
+		This SASS file loads all the CSS files for the web page
+*/
+/* BASE - Base styles, variables, etc */
+	@import 'base/variables.scss';
+
+/* MODULES - Individual site components*/
+	@import 'modules/sections.scss';
+	@import 'modules/components.scss';
+
+/* LAYOUTS - Page layout styles*/
+	@import 'layouts/nav.scss';
+	@import 'layouts/header.scss';
+	@import 'layouts/footer.scss'; 
+	@import 'layouts/content-body.scss';

@@ -1,0 +1,139 @@
+﻿@import '../base/variables.scss';
+#text-header2{
+	color: $white;
+	font-size:25px;
+	font-family:Arial;
+	font-weight: bold;
+}
+.app-features{
+	color: $white;
+	h4{
+	font-size:20px;
+	}
+	p{
+	font-size:14px;
+	}
+}
+.well-content{
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius: 0px;
+	border: 0px;
+	text-align: center;
+	h4{
+	color: $SlateBlue;
+	font-size: 18px;
+	font-weight:bold;
+	}
+	#std{
+	font-size: 45px;
+	}
+	.pricing-btn{
+	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50px;
+	background-color: $white;
+	border: 2px solid $SlateBlue;	
+	color: $SlateBlue;
+	font-size: 14px;
+	}
+}
+.wellcontent{
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius: 0px;
+	border: 0px;
+	text-align: center;
+	h4{
+	color: $black;
+	font-size: 18px;
+	font-weight:bold;
+	}
+	#std{
+	font-size: 45px;
+	}
+	.pricing-btn{
+	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50px;
+	background-color: $white;
+	border: 2px solid $SlateBlue;	
+	color: $SlateBlue;
+	font-size: 14px;
+	}
+}
+.center-well-blue{
+	background-color: $SlateBlue;
+	text-align: center;
+	color: $white;
+	#std{
+	font-size: 45px;
+	}
+	h4{
+	color: $white;
+	font-size: 18px;
+	font-weight:bold;
+	}
+	.pricing-btn{
+	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50px;
+	background-color: $GoldenRod;
+	font-size: 14px;
+	}
+}
+div.usage p {
+	font-size: 12px;
+	color: $white;
+	text-align: center;
+}
+.pricing-btnn{
+	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50px;
+	background-color: $GoldenRod;
+	font-size: 16px;
+	}
+.pricing-btn{
+	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50px;
+	background-color: $white;
+	border: 2px solid $SlateBlue;	
+	color: $SlateBlue;
+	font-size: 16px;
+	font-weight: bold;
+	}
+div.faq h4{
+	font-size: 20px;
+	color:$SlateBlue;
+}
+img{
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+}
+img#imgfeatures{
+	border: 1px solid $white;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius: 0px;
+}
+.video-overlay{
+	background-color: $SlateBlue;
+	opacity: 0.8;
+	width:350px;
+	height:200px;
+	z-index: 500;
+}
+video{
+	border: 2px solid $white ;
+	z-index: 20;
+	text-align: center;
+}
+ #work li{
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 5px;
+	padding-top: 5px;
+}

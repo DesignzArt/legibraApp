@@ -1,0 +1,15 @@
+﻿@import '../base/variables.scss';
+
+.well-footer p{
+	font-size: 12px;
+}
+.footerwell{
+	background-color: $white;
+	border: none;
+	border-top: 0px solid $white;
+	min-height: -50px;
+	border-top: 1px solid $DarkGoldenRod;
+}
+img#twitter{
+	background-color: $DarkGoldenRod;
+}

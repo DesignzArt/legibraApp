@@ -1,0 +1,66 @@
+﻿@import '../base/variables.scss';
+
+@media screen and (min-width: 767px){
+		.hidenav{
+			display: none;
+		}
+}
+@media screen and (max-width: 767px){
+		#scrollleft{
+			display: none;
+		}
+		.hideheader{
+			display: none;
+		}
+}
+.jumbo-header,.nav-header,.well-header{
+	background-color: $SlateBlue;
+}
+.well-header {
+	border:none;
+	border-top:0px solid $SlateBlue;
+	color:$white;
+	h1{
+		font-size: 42px;
+		font-family: Arial;
+		font-weight: bold;
+	  }
+	}
+h3{
+		font-size:32px;
+		font-family:Arial;
+}
+#text-header{
+	color: $SlateBlue;
+	font-size:25px;
+	font-family:Arial;
+	font-weight: bold;
+}
+.well-mini-section{
+	margin-top:-65px;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius: 0px;
+	min-height:105px;
+}
+#mini-section{
+	font-size: 22px;
+	text-align: center;
+}
+#dividert{
+	background: url(../images/tooplate_gototop.png) no-repeat; 
+}
+ul#scollable-menu-bar li{
+	display: inline-block;
+	list-style-type: none;
+	a{
+	color: $white;
+	padding-top:5px;
+	padding-left:11px;
+	font-weight: bold;
+	text-decoration: none;
+	}	
+	a:hover{
+	color: $DarkGoldenRod;
+	}
+}

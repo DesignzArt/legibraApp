@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,cAAc;EACb,SAAS,EAAE,IAAI;;AAEhB,WAAW;EACV,gBAAgB,ECLT,OAAO;EDMd,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,iBAAgB;EAC5B,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,iBAAwB;;AAErC,WAAW;EACV,gBAAgB,ECVD,OAAO",
+"sources": ["../../legibra_scss/layouts/footer.scss","../../legibra_scss/base/variables.scss"],
+"names": [],
+"file": "_footer.css"
+}

@@ -1,0 +1,207 @@
+/*
+		LegibraApp: Bootstrap, Jquery, Javascript, HTML5, CSS3, Sass 
+		Author : Sammy Mwangangi, web software developer
+		Date: 31st to 2nd 2017
+		This SASS file loads all the CSS files for the web page
+*/
+/* BASE - Base styles, variables, etc */
+/* MODULES - Individual site components*/
+/* LAYOUTS - Page layout styles*/
+@media screen and (min-width: 767px) {
+  .hidenav {
+    display: none; } }
+@media screen and (max-width: 767px) {
+  #scrollleft {
+    display: none; }
+
+  .hideheader {
+    display: none; } }
+.jumbo-header, .nav-header, .well-header {
+  background-color: #6A5ACD; }
+
+.well-header {
+  border: none;
+  border-top: 0px solid #6A5ACD;
+  color: #ffffff; }
+  .well-header h1 {
+    font-size: 42px;
+    font-family: Arial;
+    font-weight: bold; }
+
+h3 {
+  font-size: 32px;
+  font-family: Arial; }
+
+#text-header {
+  color: #6A5ACD;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold; }
+
+.well-mini-section {
+  margin-top: -65px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  min-height: 105px; }
+
+#mini-section {
+  font-size: 22px;
+  text-align: center; }
+
+#dividert {
+  background: url(../images/tooplate_gototop.png) no-repeat; }
+
+ul#scollable-menu-bar li {
+  display: inline-block;
+  list-style-type: none; }
+  ul#scollable-menu-bar li a {
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 11px;
+    font-weight: bold;
+    text-decoration: none; }
+  ul#scollable-menu-bar li a:hover {
+    color: #B8860B; }
+
+.well-footer p {
+  font-size: 12px; }
+
+.footerwell {
+  background-color: #ffffff;
+  border: none;
+  border-top: 0px solid #ffffff;
+  min-height: -50px;
+  border-top: 1px solid #B8860B; }
+
+img#twitter {
+  background-color: #B8860B; }
+
+#text-header2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold; }
+
+.app-features {
+  color: #ffffff; }
+  .app-features h4 {
+    font-size: 20px; }
+  .app-features p {
+    font-size: 14px; }
+
+.well-content {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border: 0px;
+  text-align: center; }
+  .well-content h4 {
+    color: #6A5ACD;
+    font-size: 18px;
+    font-weight: bold; }
+  .well-content #std {
+    font-size: 45px; }
+  .well-content .pricing-btn {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background-color: #ffffff;
+    border: 2px solid #6A5ACD;
+    color: #6A5ACD;
+    font-size: 14px; }
+
+.wellcontent {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border: 0px;
+  text-align: center; }
+  .wellcontent h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold; }
+  .wellcontent #std {
+    font-size: 45px; }
+  .wellcontent .pricing-btn {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background-color: #ffffff;
+    border: 2px solid #6A5ACD;
+    color: #6A5ACD;
+    font-size: 14px; }
+
+.center-well-blue {
+  background-color: #6A5ACD;
+  text-align: center;
+  color: #ffffff; }
+  .center-well-blue #std {
+    font-size: 45px; }
+  .center-well-blue h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold; }
+  .center-well-blue .pricing-btn {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background-color: #DAA520;
+    font-size: 14px; }
+
+div.usage p {
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center; }
+
+.pricing-btnn {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background-color: #DAA520;
+  font-size: 16px; }
+
+.pricing-btn {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background-color: #ffffff;
+  border: 2px solid #6A5ACD;
+  color: #6A5ACD;
+  font-size: 16px;
+  font-weight: bold; }
+
+div.faq h4 {
+  font-size: 20px;
+  color: #6A5ACD; }
+
+img {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px; }
+
+img#imgfeatures {
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px; }
+
+.video-overlay {
+  background-color: #6A5ACD;
+  opacity: 0.8;
+  width: 350px;
+  height: 200px;
+  z-index: 500; }
+
+video {
+  border: 2px solid #ffffff;
+  z-index: 20;
+  text-align: center; }
+
+#work li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 5px;
+  padding-top: 5px; }
+
+/*# sourceMappingURL=main.css.map */
